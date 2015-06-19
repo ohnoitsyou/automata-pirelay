@@ -1,0 +1,11 @@
+{
+  "name": "piRelay",
+  "description": "Plugin to control a relay board!",
+  "version": "1.0.0",
+  "private": "true",
+  "main": "pirelay.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "request": "2.55.0"
+  }
+}
