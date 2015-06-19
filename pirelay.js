@@ -46,7 +46,7 @@ var Pirelay = function() {
     debug("[RegisterStatics] Starting");
     var folders = [];
     folders = folders.map(function(folder) {
-      return path.basename(pluginDir) + "/" + path.relatice(pluginDir, folder);
+      return path.basename(pluginDir) + "/" + path.relative(pluginDir, folder);
     });
     debug("[RegisterStatics] Finishing");
     return folders;
